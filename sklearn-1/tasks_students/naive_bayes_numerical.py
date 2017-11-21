@@ -34,13 +34,13 @@ test_model(mgnb, X_iris_test, y_iris_test, False)
 
 # Compare the performance of your implementation
 # to GaussianNB from sklearn to verify correctness
-from sklearn.naive_bayes import GaussianNB
-
-gnb = GaussianNB()
-gnb.fit(X_iris_train, y_iris_train)
-
-test_model(gnb, X_iris_train, y_iris_train, False)
-test_model(gnb, X_iris_test, y_iris_test, False)
+# from sklearn.naive_bayes import GaussianNB
+#
+# gnb = GaussianNB()
+# gnb.fit(X_iris_train, y_iris_train)
+#
+# test_model(gnb, X_iris_train, y_iris_train, False)
+# test_model(gnb, X_iris_test, y_iris_test, False)
 
 # accuracy:
 # 0.966666666667

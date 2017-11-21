@@ -71,7 +71,7 @@ knn.fit(X_train, y_train)
 
 # Evaluate the model on train data and check it's prediction on test example
 # print "train performance:"
-# test_model(knn, X_train, y_train)
+#  test_model(knn, X_train, y_train)
 # print "test performance:"
 # test_model(knn, X_test)
 
